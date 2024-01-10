@@ -1,0 +1,25 @@
+● What is Emmet?
+
+Emmet is a set of plug-ins for text editors that allows for high-speed coding and editing in HTML, XML, XSLT, and other structured code formats via content assist.
+
+● Difference between a Library and Framework?
+
+Libraries provide developers with predefined functions and classes to make their work easier and boost the development process. Framework, on the other hand, is like the foundation upon which developers build applications for specific platforms.
+
+● What is CDN? Why do we use it?
+Content Delivery Network (CDN) links are an integral part of modern web development.A CDN improves efficiency by introducing intermediary servers between the client and the website server.
+
+● Why is React known as React?
+React is aptly named because: It "reacts" quickly to changes without reloading the whole page. It uses the virtual DOM to efficiently update parts of a webpage. It's built around components that "react" and update.
+
+● What is crossorigin in script tag?
+The crossorigin attribute sets the mode of the request to an HTTP CORS Request. 
+
+● What is diference between React and ReactDOM
+React provides the tools and concepts to define component-based user interfaces, ReactDOM handles the task of rendering those interfaces in a web environment.
+
+● What is difference between react.development.js and react.production.js files via CDN?
+In production mode, compression and minification of Javascript and other resources happens to reduce size of the code which is not the case when it comes to development mode. Performance will be much faster in production mode when compared to development mode.
+
+● What is async and defer? 
+Asynchronous scripts don't wait for each other. So if a smaller script is second in the order, it will be loaded before the previous longer one. Deferred scripts maintain their relative order which means the first script will be loaded first while all others below it will have to wait.
