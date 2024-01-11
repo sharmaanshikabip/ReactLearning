@@ -27,6 +27,7 @@ Assignment
 JSX formally is a JavaScript extension that allows creation of DOM trees using an HTML/XML-like syntax.
 
 ● Superpowers of JSX
+JSX takes care of injection attacks it will not allow malicious data to pass
 
 ● Role of type attribute in script tag? What options can I use there?
 The type attribute specifies the type of the script.
