@@ -4,17 +4,16 @@ import { LOGO_URL } from "../utils/constants";
 
 const RestaurantCard=(props)=>{
     const {resData}=props
-    // const {name}=resData?.data
+    const {name,cuisines,costForTwo,deliveryTime,avgRating}=resData?.data
     // console.log(name,'resData')
       return(
         <div className="res-card">
             <img className="res-logo"alt="res-logo"src={LOGO_URL}></img>
-            <h3 >{resData.name}</h3>
-            <h4 >{resData.cuisines.join(", ")}</h4>
-            {/* <h3 >{name}</h3>
+            <h3 >{name}</h3>
             <h4 >{cuisines.join(", ")}</h4>
             <h4 >{costForTwo/100} FOR TWO</h4>
-            <h4 >{deliveryTime} minutes</h4> */}
+            <h4 >{avgRating} stars</h4>
+            <h4 >{deliveryTime} minutes</h4> 
         </div>
       )
     }
