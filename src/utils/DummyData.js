@@ -1,4 +1,4 @@
-const resList=
+export const resList=
     [{
     "data" :{ 
       "id":"1",   
@@ -23,6 +23,19 @@ const resList=
         ],
         "costForTwo":4000,
         "deliveryTime":10
+    },
+    
+    "data" :{  
+        "id":"3", 
+        "name":"KFC",
+        "cuisines" :[
+           "Burger",
+           "Noodles",
+           "Cake",
+           "Snakes"
+        ],
+        "costForTwo":4000,
+        "deliveryTime":10
     }
 }]
-export default resList
+
